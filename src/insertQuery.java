@@ -69,7 +69,7 @@ public class insertQuery {
             // creating the preparedStatement object
             PreparedStatement pstmt = con.prepareStatement(q);
 
-            // now doing the work of the input
+            // now taking input from the user
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Enter your name: ");
                String name = br.readLine();
