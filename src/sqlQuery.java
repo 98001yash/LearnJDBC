@@ -53,7 +53,7 @@ public class sqlQuery{
             Connection con = DriverManager.getConnection(url,username,password);
 
             // create the query
-            String q = "create table table2(tid int(20) primary key auto_increment,tName varchar(200) not null,tCity varchar(400))";
+            String q = "create table table3(tid int(20) primary key auto_increment,tName varchar(200) not null,tCity varchar(400))";
 
             // create the statement
             Statement stmt = con.createStatement();

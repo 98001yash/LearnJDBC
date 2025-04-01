@@ -64,7 +64,7 @@ public class insertQuery {
 
 
             // creating the query
-            String q = "insert into table2(tName,tCity) values(?,?)";
+            String q = "insert into table3(tName,tCity) values(?,?)";
 
             // creating the preparedStatement object
             PreparedStatement pstmt = con.prepareStatement(q);
